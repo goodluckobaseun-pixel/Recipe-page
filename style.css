@@ -1,0 +1,254 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family:"YoungSerif";
+    font-weight: 200;
+}
+
+@font-face {
+    font-family:"YoungSerif";
+    src: url("YoungSerif-Regular.ttf");
+}
+
+ @font-face {
+        font-family: "Outfit";
+        src: url("Outfit-VariableFont_wght.ttf");
+    }
+
+.container{
+    width:500px ;
+    height:1370px;
+    background-color: hsl(0, 0%, 100%) ;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right:50px ;
+    border-radius: 15px;
+    margin: 100px auto;
+}
+
+#mainHeader{
+    text-align: center;
+
+}
+
+.image{
+    width: 500px;
+    border-radius: 15px;
+}
+
+.hr{
+   color: hsla(30, 10%, 34%, 14%);
+}
+
+.group1{
+
+    .recipe{
+        font-weight: 500;
+    }
+
+    .recipeSen{
+        color: hsl(30, 10%, 34%) ;
+        font-size:smaller;
+        font-family: Outfit;
+    }
+}
+
+.group2{
+    font-family:"Outfit";
+    background-color: hsla(332, 51%, 32%, 5%);
+    padding: 10px;
+    border-radius: 15px;
+    .time{
+        font-size: medium;
+        color:  hsl(332, 51%, 32%);
+    }
+
+    .preparationlist{
+        color: hsl(30, 10%, 34%); 
+        font-size:smaller;
+        line-height: 1.6em;
+
+        li::marker{
+          color:  hsl(332, 51%, 32%);  
+        } 
+    }
+
+    .s1{
+        font-weight: 400;
+    }
+
+     .s2{
+        font-weight: 400;
+    }
+
+     .s3{
+        font-weight: 400;
+    }
+
+}
+
+.group3{
+    border-bottom: 1px  hsla(24, 5%, 18%,0.05) solid;
+    .ingredients{
+        color:  hsl(14, 45%, 36%);
+    }
+
+    .ingredientslist{
+        color:  hsl(30, 10%, 34%);
+        font-size: smaller;
+        font-family: Outfit;
+        line-height: 2em;
+
+        li::marker{
+            color:  hsl(14, 45%, 36%);
+        }
+    }
+
+}
+
+.group4{
+    font-family: Outfit;
+    border-bottom: 1px  hsla(24, 5%, 18%,0.08) solid;
+    .in{
+        color: hsl(14, 45%, 36%);
+        font-family: YoungSerif;
+    }
+
+    .instructions{
+        color: hsl(30, 10%, 34%) ;
+        font-size:small;
+
+        li::marker{
+            color:  hsl(14, 45%, 36%);
+            font-size: small;
+            font-weight: 500;
+        }
+    }
+
+    .s4{
+        font-weight: 600;
+    }
+
+     .s5{
+        font-weight: 600;
+    }
+
+     .s6{
+        font-weight: 600;
+    }
+
+     .s7{
+        font-weight: 600;
+    }
+
+     .s8{
+        font-weight: 600;
+    }
+
+     .s9{
+        font-weight: 600;
+    }
+
+    .instruction1{
+        padding-bottom: 20px;
+    }
+
+     .instruction2{
+        padding-bottom: 20px;
+    }
+
+     .instruction3{
+        padding-bottom: 20px;
+    }
+
+     .instruction4{
+        padding-bottom: 20px;
+    }
+
+     .instruction5{
+        padding-bottom: 20px;
+    }
+
+     .instruction6{
+        padding-bottom: 10px
+    }
+
+}
+
+.group5{
+
+    color: hsl(30, 10%, 34%) ;
+
+    .Nutrition{
+        color:  hsl(14, 45%, 36%);
+    }
+
+    .nDetalies{
+        font-family: Outfit;
+        font-size: smaller;
+    }
+
+    .Nlist{
+        font-family: Outfit;
+        list-style-type: none;
+        font-size: smaller;
+    }
+
+    .Nlist1{
+        padding: 10px;
+        border-bottom: 1px  hsla(30, 10%, 34%, 15%) solid;
+    }
+
+    .Nlist2{
+        padding: 10px;
+        border-bottom: 1px  hsla(30, 10%, 34%, 15%) solid;
+    }
+
+    .Nlist3{
+        padding: 10px;
+        border-bottom: 1px  hsla(30, 10%, 34%, 15%) solid;
+    }
+
+    .Nlist4{
+        padding: 10px;
+    }
+
+    .Nlists1{
+        padding-left:20px ;
+    }
+
+    .Nlists2{
+        padding-left: 200px;
+        color:  hsl(14, 45%, 36%);
+        font-weight: 700;
+    }
+
+    .Nlists3{
+        padding-left:20px ;
+    }
+
+    .Nlists4{
+        padding-left:210px ;
+        color:  hsl(14, 45%, 36%);
+        font-weight: 700;
+    }
+
+    .Nlists5{
+        padding-left: 20px;
+    }
+
+    .Nlists6{
+        padding-left: 203px;
+        color:  hsl(14, 45%, 36%);
+        font-weight: 700;
+    }
+
+    .Nlists7{
+        padding-left: 20px;
+    }
+
+    .Nlists8{
+        padding-left: 225px;
+        color: hsl(14, 45%, 36%) ;
+        font-weight: 700;
+    }
+}
